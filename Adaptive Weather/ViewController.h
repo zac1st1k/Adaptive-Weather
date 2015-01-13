@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *cityUILabel;
+@property (strong, nonatomic) IBOutlet UILabel *temperatureUILabel;
+@property (strong, nonatomic) IBOutlet UILabel *weatherUILabel;
 
 @end
 
